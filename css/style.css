@@ -40,20 +40,24 @@ hr{
     display: block;
     margin: 0 auto;
   }
+
+  /*color sobre imeagen*/
+
   #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(255, 200, 0, 0.9);
+    background: rgba(184, 255, 117, 0.9);
     align-items: center;
     justify-content: center;
     opacity: 0;
     transition: opacity ease-in-out 0.25s;
   }
+  /*cruz central*/
   #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     font-size: 1.25rem;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
     opacity: 1;
@@ -61,7 +65,7 @@ hr{
   #portfolio .portfolio-item .portfolio-caption {
     padding: 1.5rem;
     text-align: center;
-    background-color: #fff;
+    background-color: rgb(122, 129, 119);
   }
   #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 1.5rem;
