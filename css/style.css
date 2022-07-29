@@ -22,14 +22,17 @@ hr{
     margin: 5% 5% 5% 25%;
 }
 
-.Contacto h2 {
-    color: #FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;  
+h2{
+    font-weight: 1000;
 }
-.h5, h5 {
+ h5 {
     font-size: 1.25rem;
     color: white;
 }
+
+/*portofolio*/  
+
+
 #portfolio .portfolio-item {
     max-width: 26rem;
     margin-left: auto;
@@ -69,9 +72,10 @@ hr{
   }
   #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 1.5rem;
-    font-family: sans-serif
+    font-family: sans-serif;
     font-weight: 700;
-    margin-bottom: 0;color:#FFFFFF;
+    margin-bottom: 0;
+    color: #FFFFFF;
   }
   #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
     font-style: italic;
@@ -130,6 +134,19 @@ hr{
     width: 10vw;
     height: 8vh;
 } 
+
+footer{
+    padding-top: 1%;
+
+}
+
+footer h2{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+
 
 /******************************/
 /* MEDIA QUERY 320px to 575px*/
@@ -219,6 +236,11 @@ hr{
         background-color: #64C25E;
        text-align: center;
     }
+
+    .footer h2{
+        margin: 3%;
+    }
+
     
     .container-boton{
         background-color: #35a835fd;
@@ -351,6 +373,10 @@ hr{
         background-color: #64C25E;
        text-align: center;margin-bottom: auto;
     }
+
+    footer h2{
+        margin: 3%;
+    }
     
     .container-boton{
         background-color: #35a835fd;
@@ -472,6 +498,11 @@ hr{
     footer{
         background-color: #64C25E;
        text-align: center;margin-bottom: auto;
+    }
+
+    
+    footer h2{
+        margin: 3%;
     }
     
     .container-boton{
@@ -603,6 +634,11 @@ hr{
        margin-bottom: auto;
        
     }
+
+    
+    footer h2{
+        margin: 3%;
+    }
     
    
     .container-boton{
@@ -725,6 +761,11 @@ hr{
        text-align: center;
        margin-bottom: auto;
     }
+
+    
+    footer h2{
+        margin: 3%;
+    }
     
     .container-boton{
         background-color: #315a31fd;
@@ -842,6 +883,11 @@ hr{
     footer{
         background-color: #64C25E;
        text-align: center;
+    }
+
+    
+    footer h2{
+        margin: 3%;
     }
     .Contacto h2{
         color: #FFFFFF;
@@ -967,6 +1013,11 @@ hr{
     footer{
         background-color: #64C25E;
        text-align: center;margin-bottom: auto; 
+    }
+
+    
+    footer h2{
+        margin: 3%;
     }
    
     .container-boton{
