@@ -62,19 +62,16 @@ hr{
   #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
     opacity: 1;
   }
-
-  /*descripcion primaria*/
-
   #portfolio .portfolio-item .portfolio-caption {
     padding: 1.5rem;
     text-align: center;
-    background-color: rgb(122, 129, 119);
+    background-color: #3F4A3C;
   }
   #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 1.5rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: sans-serif
     font-weight: 700;
-    margin-bottom: 0;
+    margin-bottom: 0;color:#FFFFFF;
   }
   #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
     font-style: italic;
@@ -1008,6 +1005,7 @@ hr{
         font-size: 1.25rem;
         color: white;
     }
+    
 }
 
 
